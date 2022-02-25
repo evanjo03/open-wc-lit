@@ -23,3 +23,7 @@ This was a POC to check to see if there would be any conflicts when consuming a 
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
 
 If you customize the configuration a lot, you can consider moving them to individual files.
+
+## Deployment
+
+https://evanjo03.github.io/open-wc-lit/?path=/story/openwclit--app
