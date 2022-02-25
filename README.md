@@ -6,14 +6,9 @@
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
-## Quickstart
+## Description
 
-To get started:
-
-```sh
-npm init @open-wc
-# requires node 10 & npm 6 or higher
-```
+This was a POC to check to see if there would be any conflicts when consuming a legacy lit-element/lit-html package while using lit @2.x.x.
 
 ## Scripts
 
@@ -27,4 +22,4 @@ npm init @open-wc
 
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
 
-If you customize the configuration a lot, you can consider moving them to individual files.# open-wc-lit
+If you customize the configuration a lot, you can consider moving them to individual files.
