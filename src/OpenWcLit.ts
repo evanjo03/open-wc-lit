@@ -2,8 +2,6 @@ import { LitElement, html, css } from "lit";
 import { property } from "lit/decorators.js";
 import "open-wc-lit-legacy/open-wc-lit-legacy.js";
 
-const logo = new URL("../../assets/open-wc-logo.svg", import.meta.url).href;
-
 export class OpenWcLit extends LitElement {
   @property({ type: String }) title = "My app";
 
@@ -53,7 +51,6 @@ export class OpenWcLit extends LitElement {
   render() {
     return html`
       <main>
-        <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
         <h1>${this.title}</h1>
 
         <p>Edit <code>src/OpenWcLit.ts</code> and save to reload.</p>
